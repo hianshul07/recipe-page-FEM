@@ -51,7 +51,7 @@ body {
     h1 {
       align-self: flex-start;
       color: $Dark-Charcoal;
-      font-size: 3.2rem;
+      font-size: 3.6rem;
     }
 
     p {
@@ -141,10 +141,21 @@ body {
         // place-items: center;
         // margin-left: 3rem;
         grid-template-columns: 1fr 1fr;
+
+        .right {
+          p {
+            color: $Nutmeg;
+          }
+          font-weight: bold;
+        }
+
+        .left {
+          color: hsl(30, 10%, 34%);
+        }
+
         p {
           font-family: 'Outfit';
           padding: 1rem;
-          color: hsl(30, 10%, 34%);
           margin-left: 2rem;
         }
       }

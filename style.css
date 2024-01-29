@@ -37,7 +37,7 @@ body .card img {
 body .card h1 {
   align-self: flex-start;
   color: hsl(24, 5%, 18%);
-  font-size: 3.2rem;
+  font-size: 3.6rem;
 }
 body .card p {
   font-family: "Outfit";
@@ -111,10 +111,18 @@ body .card .nutrition .container {
   margin-top: 1.6rem;
   grid-template-columns: 1fr 1fr;
 }
+body .card .nutrition .container .right {
+  font-weight: bold;
+}
+body .card .nutrition .container .right p {
+  color: hsl(14, 45%, 36%);
+}
+body .card .nutrition .container .left {
+  color: hsl(30, 10%, 34%);
+}
 body .card .nutrition .container p {
   font-family: "Outfit";
   padding: 1rem;
-  color: hsl(30, 10%, 34%);
   margin-left: 2rem;
 }
 
