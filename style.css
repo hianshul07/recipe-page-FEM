@@ -4,13 +4,19 @@
   box-sizing: border-box;
 }
 
+hr {
+  width: 100%;
+  color: hsl(24, 5%, 18%);
+  border: 0.5px solid hsl(30, 10%, 34%);
+}
+
 body {
-  height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
   font-size: 22px;
 }
 body .card {
@@ -21,6 +27,7 @@ body .card {
   align-items: center;
   gap: 2rem;
   padding: 2.6rem;
+  margin: 8rem;
   border-radius: 2rem;
 }
 body .card img {
@@ -57,12 +64,8 @@ body .card .prep-time li {
   padding-left: 2rem;
   padding-bottom: 1rem;
 }
-body .card .prep-time li b {
-  color: hsl(24, 5%, 18%);
-}
 body .card .ingredients {
   width: 100%;
-  align-self: flex-start;
 }
 body .card .ingredients h3 {
   font-size: 2.6rem;
@@ -72,13 +75,47 @@ body .card .ingredients h3 {
 }
 body .card .ingredients ul {
   font-family: "Outfit";
-  color: hsl(24, 5%, 18%);
+  color: hsl(30, 10%, 34%);
   padding-left: 2rem;
-  margin-top: 1rem;
+  margin-top: 1.6rem;
 }
 body .card .ingredients ul li {
   padding-left: 2rem;
   padding-bottom: 1rem;
+}
+body .card .instructions h3 {
+  font-size: 2.6rem;
+  color: hsl(14, 45%, 36%);
+}
+body .card .instructions ol {
+  font-family: "Outfit";
+  color: hsl(24, 5%, 18%);
+  padding-left: 2rem;
+  margin-top: 1.6rem;
+}
+body .card .instructions ol li {
+  color: hsl(30, 10%, 34%);
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+body .card .nutrition {
+  width: 100%;
+}
+body .card .nutrition h3 {
+  font-size: 2.6rem;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 1.6rem;
+}
+body .card .nutrition .container {
+  display: grid;
+  margin-top: 1.6rem;
+  grid-template-columns: 1fr 1fr;
+}
+body .card .nutrition .container p {
+  font-family: "Outfit";
+  padding: 1rem;
+  color: hsl(30, 10%, 34%);
+  margin-left: 2rem;
 }
 
 @font-face {

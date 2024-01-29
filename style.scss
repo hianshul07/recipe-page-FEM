@@ -13,13 +13,21 @@ $Dark-Raspberry: hsl(332, 51%, 32%);
   box-sizing: border-box;
 }
 
+hr {
+  width: 100%;
+  color: $Dark-Charcoal;
+  border: 0.5px solid $Wenge-Brown;
+}
+
 body {
-  height: 100vh;
+  // height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: $Eggshell;
+  color: hsl(30, 10%, 34%);
+
   font-size: 22px;
 
   .card {
@@ -32,6 +40,7 @@ body {
     // padding-bottom: 2rem ;
     gap: 2rem;
     padding: 2.6rem;
+    margin: 8rem;
     border-radius: 2rem;
 
     img {
@@ -71,16 +80,12 @@ body {
         width: 100%;
         padding-left: 2rem;
         padding-bottom: 1rem;
-
-        b {
-          color: hsl(24, 5%, 18%);
-        }
       }
     }
 
     .ingredients {
       width: 100%;
-      align-self: flex-start;
+      // align-self: flex-start;
       // padding: 2.6rem;
 
       h3 {
@@ -91,13 +96,56 @@ body {
       }
       ul {
         font-family: 'Outfit';
-        color: $Dark-Charcoal;
+        color: hsl(30, 10%, 34%);
+
         padding-left: 2rem;
-        margin-top: 1rem;
+        margin-top: 1.6rem;
 
         li {
           padding-left: 2rem;
           padding-bottom: 1rem;
+        }
+      }
+    }
+
+    .instructions {
+      h3 {
+        font-size: 2.6rem;
+        color: $Nutmeg;
+      }
+
+      ol {
+        font-family: 'Outfit';
+        color: $Dark-Charcoal;
+        padding-left: 2rem;
+        margin-top: 1.6rem;
+        li {
+          color: hsl(30, 10%, 34%);
+
+          padding-left: 2rem;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+
+    .nutrition {
+      width: 100%;
+      h3 {
+        font-size: 2.6rem;
+        color: $Nutmeg;
+        margin-bottom: 1.6rem;
+      }
+      .container {
+        display: grid;
+        margin-top: 1.6rem;
+        // place-items: center;
+        // margin-left: 3rem;
+        grid-template-columns: 1fr 1fr;
+        p {
+          font-family: 'Outfit';
+          padding: 1rem;
+          color: hsl(30, 10%, 34%);
+          margin-left: 2rem;
         }
       }
     }
