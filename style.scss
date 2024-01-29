@@ -1,3 +1,12 @@
+$White: hsl(0, 0%, 100%);
+$Rose-White: hsl(330, 100%, 98%);
+$Eggshell: hsl(30, 54%, 90%);
+$Light-Grey: hsl(30, 18%, 87%);
+$Wenge-Brown: hsl(30, 10%, 34%);
+$Dark-Charcoal: hsl(24, 5%, 18%);
+$Nutmeg: hsl(14, 45%, 36%);
+$Dark-Raspberry: hsl(332, 51%, 32%);
+
 * {
   margin: 0%;
   padding: 0%;
@@ -10,7 +19,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f3e5d8;
+  background-color: $Eggshell;
   font-size: 22px;
 
   .card {
@@ -32,7 +41,7 @@ body {
 
     h1 {
       align-self: flex-start;
-      color: hsl(24, 5%, 18%);
+      color: $Dark-Charcoal;
       font-size: 3.2rem;
     }
 
@@ -42,7 +51,7 @@ body {
     }
 
     .prep-time {
-      background-color: hsl(330, 100%, 98%);
+      background-color: $Rose-White;
       width: 100%;
       border-radius: 1rem;
       font-family: 'Outfit';
@@ -50,17 +59,17 @@ body {
       h4 {
         padding-top: 2rem;
         padding-left: 2rem;
-        color: hsl(332, 51%, 32%);
+        color: $Dark-Raspberry;
         font-size: 1.8rem;
       }
       ul {
-        padding: 2rem 4rem;
+        margin: 2rem 4rem;
+        color: hsl(30, 10%, 34%);
       }
 
       li {
         width: 100%;
-        color: hsl(30, 10%, 34%);
-        // padding-left: 4rem;
+        padding-left: 2rem;
         padding-bottom: 1rem;
 
         b {
@@ -70,11 +79,26 @@ body {
     }
 
     .ingredients {
+      width: 100%;
       align-self: flex-start;
+      // padding: 2.6rem;
 
       h3 {
         font-size: 2.6rem;
-        color: hsl(332, 51%, 32%);
+        color: $Nutmeg;
+        font-family: 'Serif';
+        padding-left: 0%;
+      }
+      ul {
+        font-family: 'Outfit';
+        color: $Dark-Charcoal;
+        padding-left: 2rem;
+        margin-top: 1rem;
+
+        li {
+          padding-left: 2rem;
+          padding-bottom: 1rem;
+        }
       }
     }
   }

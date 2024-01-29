@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f3e5d8;
+  background-color: hsl(30, 54%, 90%);
   font-size: 22px;
 }
 body .card {
@@ -49,22 +49,36 @@ body .card .prep-time h4 {
   font-size: 1.8rem;
 }
 body .card .prep-time ul {
-  padding: 2rem 4rem;
+  margin: 2rem 4rem;
+  color: hsl(30, 10%, 34%);
 }
 body .card .prep-time li {
   width: 100%;
-  color: hsl(30, 10%, 34%);
+  padding-left: 2rem;
   padding-bottom: 1rem;
 }
 body .card .prep-time li b {
   color: hsl(24, 5%, 18%);
 }
 body .card .ingredients {
+  width: 100%;
   align-self: flex-start;
 }
 body .card .ingredients h3 {
   font-size: 2.6rem;
-  color: hsl(332, 51%, 32%);
+  color: hsl(14, 45%, 36%);
+  font-family: "Serif";
+  padding-left: 0%;
+}
+body .card .ingredients ul {
+  font-family: "Outfit";
+  color: hsl(24, 5%, 18%);
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+body .card .ingredients ul li {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
 }
 
 @font-face {
