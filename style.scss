@@ -20,7 +20,6 @@ hr {
 }
 
 body {
-  // height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -36,8 +35,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    // padding-top: 2rem;
-    // padding-bottom: 2rem ;
     gap: 2rem;
     padding: 2.6rem;
     margin: 8rem;
@@ -85,8 +82,6 @@ body {
 
     .ingredients {
       width: 100%;
-      // align-self: flex-start;
-      // padding: 2.6rem;
 
       h3 {
         font-size: 2.6rem;
@@ -163,13 +158,13 @@ body {
 
 @media only screen and (max-width: 768px) {
   body {
+    background-color: #fff;
     .fine-line {
       height: 0.05rem;
       width: 80%;
       background-color: $Dark-Charcoal;
     }
-    // font-size: 16px;
-    background-color: #fff;
+
     .card {
       width: 100vw;
       padding: 0%;
@@ -182,7 +177,6 @@ body {
       }
 
       h1 {
-        // font-size: 2.8rem;
         padding: 2rem;
       }
 
