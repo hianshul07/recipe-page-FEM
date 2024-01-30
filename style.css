@@ -126,11 +126,53 @@ body .card .nutrition .container p {
   margin-left: 2rem;
 }
 
-@font-face {
-  font-family: "Outfit";
-  src: local("Outfit"), url("/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Serif";
-  src: local("YoungSerif"), url("/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #fff;
+  }
+  body .fine-line {
+    height: 0.05rem;
+    width: 80%;
+    background-color: hsl(24, 5%, 18%);
+  }
+  body .card {
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0%;
+    gap: 1rem;
+  }
+  body .card img {
+    border-radius: 0%;
+    width: 100vw;
+  }
+  body .card h1 {
+    padding: 2rem;
+  }
+  body .card p {
+    padding: 2rem;
+  }
+  body .card .prep-time {
+    width: 90%;
+  }
+  body .card .ingredients {
+    padding: 2rem;
+  }
+  body .card .instructions {
+    padding: 2rem;
+  }
+  body .card .nutrition {
+    padding: 2rem;
+  }
+  body .card .nutrition .fine-line {
+    width: 100%;
+  }
+  @font-face {
+    font-family: "Outfit";
+    src: local("Outfit"), url("/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Serif";
+    src: local("YoungSerif"), url("/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  }
 }/*# sourceMappingURL=style.css.map */

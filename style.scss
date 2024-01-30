@@ -163,14 +163,67 @@ body {
   }
 }
 
-@font-face {
-  font-family: 'Outfit';
-  src: local('Outfit'),
-    url('/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
-}
+@media only screen and (max-width: 768px) {
+  body {
 
-@font-face {
-  font-family: 'Serif';
-  src: local('YoungSerif'),
-    url('/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    .fine-line {
+      height: 0.05rem;
+      width: 80%;
+      background-color: $Dark-Charcoal
+    }
+    // font-size: 16px;
+    background-color: #fff;
+    .card {
+      width: 100vw;
+      padding: 0%;
+      margin: 0%;
+      border-radius: 0%;
+      gap: 1rem;
+      img {
+        border-radius: 0%;
+        width: 100vw;
+      }
+
+      h1 {
+        // font-size: 2.8rem;
+        padding: 2rem;
+      }
+
+      p {
+        padding: 2rem;
+      }
+
+      .prep-time {
+        width: 90%;
+      }
+
+      .ingredients {
+        padding: 2rem;
+      }
+
+      .instructions {
+        padding: 2rem;
+      }
+
+      .nutrition {
+        padding: 2rem;
+
+        .fine-line {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @font-face {
+    font-family: 'Outfit';
+    src: local('Outfit'),
+      url('/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Serif';
+    src: local('YoungSerif'),
+      url('/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+  }
 }
