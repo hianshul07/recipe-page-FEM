@@ -216,11 +216,11 @@ body {
 @font-face {
   font-family: 'Outfit';
   src: local('Outfit'),
-    url('/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    url('./fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Serif';
   src: local('YoungSerif'),
-    url('/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    url('./fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
 }
