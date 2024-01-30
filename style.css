@@ -35,6 +35,7 @@ body .card img {
   border-radius: 1rem;
 }
 body .card h1 {
+  font-family: "Serif";
   align-self: flex-start;
   color: hsl(24, 5%, 18%);
   font-size: 3.6rem;
@@ -167,12 +168,12 @@ body .card .nutrition .container p {
   body .card .nutrition .fine-line {
     width: 100%;
   }
-  @font-face {
-    font-family: "Outfit";
-    src: local("Outfit"), url("/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
-  }
-  @font-face {
-    font-family: "Serif";
-    src: local("YoungSerif"), url("/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
-  }
+}
+@font-face {
+  font-family: "Outfit";
+  src: local("Outfit"), url("/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Serif";
+  src: local("YoungSerif"), url("/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
 }/*# sourceMappingURL=style.css.map */
